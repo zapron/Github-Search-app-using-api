@@ -37,6 +37,14 @@ export default function Fetching() {
       >
         FETCH
       </button>
+<button
+        style={{ background: "white", border: "2px dashed black" }}
+        onClick={() => {
+          setData(null);
+        }}
+      >
+        RESET
+      </button>
 
       {loading ? (
         <div>Loading...</div>
